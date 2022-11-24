@@ -100,7 +100,7 @@
     (property "Reference" "J1" (id 0) (at 92.71 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Screw_Terminal_01x02" (id 1) (at 92.71 64.7699 0)
+    (property "Value" "secondary" (id 1) (at 92.71 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 90.17 62.23 0)
@@ -117,7 +117,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 510629ec-838d-4b9e-a69b-8bddd37fb7a8)
     (property "Reference" "J2" (id 0) (at 63.5 55.88 0))
-    (property "Value" "Screw_Terminal_01x02" (id 1) (at 63.5 58.42 0))
+    (property "Value" "mains" (id 1) (at 63.5 58.42 0))
     (property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" (id 2) (at 63.5 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -134,10 +134,10 @@
 
   (symbol_instances
     (path "/0eacf1e1-2148-4998-ab35-047c10ff1d73"
-      (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J1") (unit 1) (value "secondary") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
     (path "/510629ec-838d-4b9e-a69b-8bddd37fb7a8"
-      (reference "J2") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
+      (reference "J2") (unit 1) (value "mains") (footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm")
     )
   )
 )
